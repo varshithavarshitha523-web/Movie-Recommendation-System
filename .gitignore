@@ -11,6 +11,12 @@ env/
 # Streamlit secrets
 .streamlit/secrets.toml
 
+# Large model files
+models/similarity.pkl
+
+# Large dataset files
+dataset/credits.csv
+
 # IDE
 .vscode/
 .idea/
@@ -21,13 +27,4 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.logmodels/similarity.pkl
-models/similarity.pkl
-__pycache__/
-*.pyc
-dataset/credits.csv
-.streamlit/secrets.toml
-models/similarity.pkl
-dataset/credits.csv
-__pycache__/
-*.pyc
+*.log
